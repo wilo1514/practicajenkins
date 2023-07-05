@@ -40,7 +40,7 @@ pipeline {
     stage ('ZAP') {
       steps {
         withMaven(maven : 'mvn-3.6.3') {
-          sh 'mvn zap:analyze'
+          bat 'mvn zap:analyze'
           publishHTML (target: [
                 allowMissing: false,
                 alwaysLinkToLastBuild: false,
