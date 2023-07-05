@@ -199,9 +199,8 @@
                 <version>1.2.1-0</version>
                 <configuration>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost -->
-                   <!-- <zapHost>zap</zapHost>-->
-                    <zapPort>8081</zapPort>
-                    <targetUrl>http://localhost/rest/demo</targetUrl>
+                    <zapPort>8080</zapPort>
+                    <targetUrl>http://myapp:8080/rest</targetUrl>
                     <shouldStartNewSession>false</shouldStartNewSession>
                 </configuration>
             </plugin>
