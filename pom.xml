@@ -203,6 +203,7 @@
                     <targetUrl>http://myapp:8080</targetUrl>
                     <zapApiKey></zapApiKey>
                     <shouldStartNewSession>false</shouldStartNewSession>
+                    <zapPath>C:\Program Files\OWASP\Zed Attack Proxy</zapPath>
                     <!-- 
                     <zapHost>localhost</zapHost>
                     <zapPort>8080</zapPort>
