@@ -198,11 +198,12 @@
                 <artifactId>zap-maven-plugin</artifactId>
                 <version>1.2.1-0</version>
                 <configuration>
-                    <zapHost>zap</zapHost>
+                    <!--<zapHost>zap</zapHost>-->
                     <zapPort>8081</zapPort>
                     <targetUrl>http://myapp:8080/rest</targetUrl>
                     <zapPath>C:\ProgramData\OWASP\Zed Attack Proxy</zapPath>
-                    <shouldStartNewSession>false</shouldStartNewSession>
+                    <zapApiKey></zapApiKey>
+                    <shouldStartNewSession>true</shouldStartNewSession>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost 
                     <zapHost>localhost</zapHost>
                     <zapPort>8080</zapPort>
