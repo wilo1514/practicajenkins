@@ -201,7 +201,7 @@
                     <!--<zapHost>zap</zapHost>-->
                     <zapHost>localhost</zapHost>
                     <zapPort>8081</zapPort>
-                    <targetUrl>http://myapp:8080</targetUrl>
+                    <targetUrl>http://myapp:8081</targetUrl>
                     <shouldStartNewSession>false</shouldStartNewSession>
                     <!-- 
                     <zapHost>localhost</zapHost>
