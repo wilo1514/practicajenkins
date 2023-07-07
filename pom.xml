@@ -200,7 +200,7 @@
                 <configuration>
                     <!--<zapHost>zap</zapHost>-->
                     <zapPort>8081</zapPort>
-                    <targetUrl>http://myapp:8080/rest</targetUrl>
+                    <targetUrl>http://myapp:8085</targetUrl>
                     <zapApiKey></zapApiKey>
                     <shouldStartNewSession>false</shouldStartNewSession>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost 
