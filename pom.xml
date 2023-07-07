@@ -200,7 +200,7 @@
                 <configuration>
                     <zapHost>localhost</zapHost>
                     <zapPort>8081</zapPort>
-                    <targetUrl>http://localhost/rest/demo</targetUrl>
+                    <targetUrl>http://myapp:8080/rest</targetUrl>
                     <zapPath>C:\Program Files\OWASP\Zed Attack Proxy</zapPath>
                     <shouldStartNewSession>true</shouldStartNewSession>             
                  </configuration>
