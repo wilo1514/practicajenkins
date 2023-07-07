@@ -202,7 +202,7 @@
                     <zapPort>8081</zapPort>
                     <targetUrl>http://localhost:8080/</targetUrl>
                     <zapPath>C:\Program Files\OWASP\Zed Attack Proxy</zapPath>
-                    <shouldStartNewSession>true</shouldStartNewSession>             
+                    <shouldStartNewSession>false</shouldStartNewSession>             
                  </configuration>
             </plugin>
             <plugin>
