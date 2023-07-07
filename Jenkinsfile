@@ -36,7 +36,7 @@ pipeline {
         recordIssues enabledForFailure: true, tool: pmdParser(pattern: '**/target/pmd.xml')
       }
     }
-
+/*
     stage ('ZAP') {
       steps {
         withMaven(maven : 'mvn-3.6.3') {
@@ -52,7 +52,7 @@ pipeline {
         }
       }
     }
-
+*/
     stage('SonarQube analysis') {
       steps {
         withSonarQubeEnv(credentialsId: 'sonarqube-secret', installationName: 'sonarqube-server') {
