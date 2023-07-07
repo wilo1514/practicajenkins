@@ -199,11 +199,10 @@
                 <version>1.2.1-0</version>
                 <configuration>
                     <!--<zapHost>zap</zapHost>-->
+                    <zapHost>localhost</zapHost>
                     <zapPort>8080</zapPort>
-                    <targetUrl>http://myapp:8080</targetUrl>
-                    <zapApiKey></zapApiKey>
+                    <targetUrl>http://myapp:8080/rest</targetUrl>
                     <shouldStartNewSession>false</shouldStartNewSession>
-                    <zapPath>C:\Program Files\OWASP\Zed Attack Proxy</zapPath>
                     <!-- 
                     <zapHost>localhost</zapHost>
                     <zapPort>8080</zapPort>
