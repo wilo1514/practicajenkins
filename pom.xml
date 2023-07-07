@@ -200,8 +200,8 @@
                 <configuration>
                     <zapHost>zap</zapHost>
                     <zapPort>8081</zapPort>
-                    <targetUrl>http://localhost/rest/demo</targetUrl>
-                    <shouldStartNewSession>false</shouldStartNewSession>
+                    <targetUrl>http://myapp:8080/rest</targetUrl>
+                    <shouldStartNewSession>true</shouldStartNewSession>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost 
                     <zapHost>localhost</zapHost>
                     <zapPort>8080</zapPort>
